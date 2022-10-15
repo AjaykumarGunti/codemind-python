@@ -1,8 +1,5 @@
 a=int(input())
-for row in range(a):
-    for col in range(a):
-        if row==col or (row!=0 and col==0) or (row==a-1 and col!=a-1):
-            print("*",end="")
-        else:
-            print(" ",end="")
+for i in range(a):
+    for j in range(i+1):
+        print(j+1,end="")
     print()
