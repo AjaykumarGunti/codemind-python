@@ -1,0 +1,6 @@
+p,r,t=map(float,input().split())
+amount=float(p*(1+r/100)**t)
+compound_intrest=float(amount-p)
+z=float(compound_intrest+p)
+f=('{:.2f}'.format(z))
+print(f)
