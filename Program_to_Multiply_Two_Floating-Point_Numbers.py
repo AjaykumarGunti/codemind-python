@@ -1,0 +1,5 @@
+x=float(input())
+y=float(input())
+a=(float(x))*(float(y))
+f=("{:.2f}".format(a))
+print(f)
